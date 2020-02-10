@@ -3,12 +3,14 @@ import React from "react";
 function NameCard(){
   return (
     <div className="namecard">
-      <h1>Kellie A. Corrigan</h1>
+      <p></p>
+      <div className='profile-pic'></div>
+      <h3>Kellie A. Corrigan</h3>
       <table>
         <tr>
-          <th>TWEETS</th>
-          <th>FOLLOWING</th>
-          <th>FOLLOWERS</th>
+          <td>TWEETS</td>
+          <td>FOLLOWING</td>
+          <td>FOLLOWERS</td>
         </tr>
       </table>
     </div>

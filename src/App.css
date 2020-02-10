@@ -1,10 +1,40 @@
 .namecard {
 border: 1px solid grey;
 margin: 5px;
+text-align: center;
 }
+.namecard p {
+  margin: 0;
+  height: 120px;
+  background-color: #1c98e9;
+}
+.namecard table {
+  width: 90%;
+  font-size: 13px;
+  margin: auto;
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+
+.namecard h3 {
+  margin-top: 5px;
+  margin-left: 29%;
+}
+
+.profile-pic {
+  height: 80px;
+  width: 80px;
+  background-color: #1c98e9;
+  border: 2px solid white;
+  border-radius: 20px;
+  position: absolute;
+  margin-top: -50px;
+  margin-left: 2%;
+}
+
 .post {
 border: 1px solid grey;
-margin: 5px;
+padding: 5px 15px;
 }
 .friend {
 border: 1px solid grey;
@@ -21,12 +51,14 @@ margin: 5px;
 
 .bio {
 border: 1px solid grey;
-margin: 5px;
+margin: 20px 5px;
+padding: 0px 20px 50px;
 }
 
 .main {
   display: grid;
   grid-template-columns: 4fr 5fr 3fr;
+  margin: 15px;
 }
 
 .nav {
@@ -35,18 +67,18 @@ margin: 5px;
   margin: 10px;
 }
 
-.nav-links, th {
-  border: 2px solid grey;
-  height: 100%;
+.nav-links {
   border-collapse: collapse;
 }
 
 .nav-links th {
+  border: 2px solid grey;
+  height: 100%;
   padding: 15px;
 }
 
 .nav input {
-  border: 2px solid blue;
+  border: 2px solid #1c98e9;
   border-radius: 50px;
   margin-left: 10px;
   padding-left: 18px;
