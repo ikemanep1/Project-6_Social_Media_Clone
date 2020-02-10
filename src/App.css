@@ -1,38 +1,54 @@
-.App {
-  text-align: center;
+.namecard {
+border: 1px solid grey;
+margin: 5px;
+}
+.post {
+border: 1px solid grey;
+margin: 5px;
+}
+.friend {
+border: 1px solid grey;
+margin: 5px;
+}
+.feed {
+border: 1px solid grey;
+margin: 5px;
+}
+.friends {
+border: 1px solid grey;
+margin: 5px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.bio {
+border: 1px solid grey;
+border-radius: 40px;
+margin: 5px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.main {
+  display: grid;
+  grid-template-columns: 4fr 5fr 3fr;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.nav {
+  display: grid;
+  grid-template-columns: 4fr 3fr 3fr 2fr;
+  margin: 10px;
 }
 
-.App-link {
-  color: #61dafb;
+.nav-links, th {
+  border: 2px solid grey;
+  height: 100%;
+  border-collapse: collapse;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+th {
+  padding: 10px;
+}
+
+.nav input {
+  border: 2px solid blue;
+  border-radius: 50px;
+  margin-left: 10px;
+  padding-left: 15px;
 }
