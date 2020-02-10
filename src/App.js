@@ -20,7 +20,9 @@ function App() {
           <Bio/>
         </div>
         <Feed/>
-        <Friends/>
+        <div>
+          <Friends/>
+        </div>
       </div>
     </div>
   );
