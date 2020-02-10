@@ -4,7 +4,10 @@ import Post from './Post';
 function Feed(){
   return (
     <div className="feed">
+      <div className="feedTop">
+        <div className="profile-pic2"></div>
       <input type='text' placeholder="What's Happening?" />
+    </div>
       <div>
         <Post
           user='Lorem ipsum'

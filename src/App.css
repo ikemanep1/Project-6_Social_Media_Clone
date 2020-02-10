@@ -31,6 +31,31 @@ text-align: center;
   margin-top: -50px;
   margin-left: 2%;
 }
+.feedTop {
+  background-color: #ccf5ff;
+  display: grid;
+  grid-template-columns: 70px 1fr;
+}
+
+.feedTop input {
+  margin: 15px;
+  border: 1px solid #1c98e9;
+  padding-left: 20px;
+}
+
+.feedTop input::placeholder {
+  color: #1c98e9;
+  font-size: 13px;
+}
+
+.profile-pic2 {
+  height: 35px;
+  width: 35px;
+  background-color: #7b0001;
+  margin-left: 40%;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
 
 .post {
 border: 1px solid grey;
