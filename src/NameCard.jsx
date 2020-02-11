@@ -4,7 +4,9 @@ function NameCard(){
   return (
     <div className="namecard">
       <p></p>
-      <div className='profile-pic'></div>
+      <div className='profile-pic'>
+        <img src='/user-white.png'></img>
+      </div>
       <h3>Kellie A. Corrigan</h3>
       <table>
         <tr>

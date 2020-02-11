@@ -10,7 +10,10 @@ function Post(props){
     backgroundColor: props.color,
     width: '40px',
     height: '40px',
-    'margin-top': '15px'
+    'margin-top': '15px',
+    display: 'flex',
+    'justify-content': 'center',
+    'align-items': 'center'
   }
   const h4Style = {
     margin: '10px 0px 0px'
@@ -32,7 +35,9 @@ function Post(props){
   }
   return (
     <div className="post" style={postStyles}>
-      <div className='sub-pic' style={subPicStyles}></div>
+      <div className='sub-pic' style={subPicStyles}>
+        <img src='/user.png'></img>
+      </div>
       <div>
         <h4 style={h4Style}>{props.user}</h4>
         <p style={pStyle}>{props.content}</p>

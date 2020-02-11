@@ -13,10 +13,15 @@ function Friend(props){
     'margin-left': "0px",
     'margin-top': "30px",
     'margin-bottom': "15px",
+    display: 'flex',
+    'justify-content': 'center',
+    'align-items': 'center'
   }
   return (
     <div className="friend" style={friendStyles}>
-      <div className='friend-pic' style={friendPicStyles}></div>
+      <div className='friend-pic' style={friendPicStyles}>
+        <img src='/user.png'></img>
+      </div>
       <div>
         <h5>{props.name}</h5>
         <button>Button</button>
