@@ -11,19 +11,25 @@ function Feed(){
       <div>
         <Post
           user='Lorem ipsum'
-          content='Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco'/>
+          color='#f3dbc4'
+          content='Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod'/>
         <Post
           user='Lorem ipsum'
-          content='Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco'/>
+          color='#f3dbc4'
+          content='Lorem ipsum dolor sit amet, consectetur'
+          double= {true}/>
         <Post
           user='Lorem ipsum'
-          content='Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco'/>
+          color='#23bd8d'
+          content='Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod'/>
         <Post
           user='Lorem ipsum'
-          content='Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco'/>
+          color='#bdaa99'
+          content='Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod'/>
         <Post
           user='Lorem ipsum'
-          content='Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco'/>
+          color='#f3dbc4'
+          content='Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod'/>
     </div>
     </div>
   );
